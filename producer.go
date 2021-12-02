@@ -20,7 +20,7 @@ func mainProducer() {
 		text = strings.Replace(text, "\n", "", -1)
 		args := strings.Split(text, "###")
 		cmd := args[0]
-
+		fmt.Print("-> ")
 		switch cmd {
 		case "create":
 			if len(args) == 2 {
