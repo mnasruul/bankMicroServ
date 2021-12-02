@@ -1,4 +1,4 @@
-module github.com/adamnoto/banku/testing
+module github.com/mnasruul/bankMicroServ/testing
 
 go 1.16
 
