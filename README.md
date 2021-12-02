@@ -15,6 +15,6 @@ To run testing:
 
     docker-compose run app ginkgo
 
-Or, you may as well follow the tutorial here:
+Or, you may as well follow the tutorial here: 
 
 Thanks for Adam link:https://github.com/adamnoto/banku
