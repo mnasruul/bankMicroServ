@@ -27,7 +27,7 @@ func initRedis() *redis.Client {
 }
 
 func main() {
-	act := flag.String("act", "consumer", "Either: producer or consumer")
+	act := flag.String("act", "producer", "Either: producer or consumer")
 	partition := flag.String("partition", "0",
 		"Partition which the consumer program will be subscribing")
 
